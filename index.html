@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form_left">
+        <h1 class="form_title">Learn to code by watching others</h1>
+        <p class="form_desc">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="form_right">
+        <button class="form_member_btn">
+          <span class="form_member_btn_left">Try it free 7days</span>
+          then $20?mo.thereafter
+        </button>
+
+        <form
+          class="from_main"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <input
+            class="form_inputs"
+            type="text"
+            name="user_first_name"
+            placeholder="First Name"
+            required
+          />
+
+          <input
+            class="form_inputs"
+            type="text"
+            name="user_last_name"
+            placeholder="Last Name"
+            required
+          />
+
+          <input
+            class="form_inputs"
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            class="form_inputs"
+            type="password"
+            name="user_password"
+            placeholder="Password"
+            autocapitalize="off"
+            required
+          />
+
+          <button class="form_main_btn" type="submit">
+            Claim Your Free Trial
+          </button>
+
+          <p class="form_agree_link_desc">
+            By clicking the button you are agreeing to our
+            <a class="form_agree_link" href="#">Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
